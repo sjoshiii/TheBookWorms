@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project</title>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js"
+      integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js"
+      integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+    />
+    <link href="css\bootstrap.min.css" rel="stylesheet" />
+    <link href="css\starter.css" rel="stylesheet" />
+    <link href="css\footer.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="container-fluid" id="main-header">
+      <nav id="mainNavbar" class="navbar navbar-primary navbar-expand-md">
+        <a href="index.html" class="navbar-brand ms-5"
+          ><img src="images/book club logo.png" style="width: 200px" alt="logo"
+        /></a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="" class="nav-link">Community</a>
+            </li>
+          </ul>
+          <form class="d-flex" id="topsearchForm">
+            <input
+              id="topSearchInput"
+              class="form-control me-2"
+              type="search"
+              placeholder="Search books by title or ISBN"
+              aria-label="Search"
+            />
+            <button class="btn" type="submit">
+              <img src="images/mag_glass.png" />
+            </button>
+          </form>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a href="Sign_up.html" class="nav-link">Sign Up</a>
+            </li>
+            <li class="nav-item">
+              <a href="log_in.html" class="nav-link">Login</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <article>
+        <section class="container-fluid">
+          <div class="row align-items-center">
+            <div class="col-lg-7">
+              <div class="text-center justify-content-center row">
+                <div class="col-8 text-center">
+                  <h2 class="text-center lh-lg">Welcome Book lovers,</h2>
+                  <p class="lh-lg">
+                    Welcome to The BookWorms, a platform where readers can
+                    connect and dive into meaningful discussions about their
+                    favorite books. Whether you're excited to unravel a plot
+                    twist or share your thoughts on a compelling character, The
+                    BookWorms is the perfect space for you. Join today to
+                    connect with fellow readers, share your reading experiences,
+                    and discover new books. Sign up now to become a part of our
+                    vibrant book-loving community!
+                  </p>
+                  <div class="text-center">
+                    <a
+                      href="Sign_up.html"
+                      type="submit"
+                      class="btn btn-primary text-white text-decoration-none mb-4"
+                      >Sign Up</a
+                    >
+                  </div>
+
+                  <a href="search page.html" class="text-decoration-none"
+                    ><p class="" id="homeskipLink">Search books&#62;</p></a
+                  >
+                </div>
+              </div>
+            </div>
+
+            <div class="col-xxl-5 col-xl-5 col-lg-5 col-md-12 col-sm-12">
+              <img src="images/orange vector.png" id="ovec" />
+              <img src="images/purple vector.png" id="pvec" />
+              <div class="row">
+                <div class="col-xxl-9 col-lg-12 col-md-12 col-sm-12 col-none-4">
+                  <div class="card p-4" id="bcm">
+                    <h2 class="card-title text-center">
+                      Monthly Book Club Feature
+                    </h2>
+                    <div class="container-fluid">
+                      <div
+                        class="row justify-content-start align-items-start flex-md-row flex-md-nowrap flex-sm-column flex-sm-wrap flex-column flex-wrap"
+                      >
+                        <div class="col-6">
+                          <img
+                            src="images/alchemist.jpg"
+                            style="width: 11em"
+                            class="pe-md-2 pe-lg-5 pe-xxl-1"
+                            alt="..."
+                          />
+                        </div>
+                        <div class="col-6">
+                          <p>
+                            Over
+                            <span style="color: #c779d0">100</span> Passionate
+                            Readers
+                          </p>
+                          <img src="images/group profiles.png" />
+                          <p>Book rating</p>
+                          <div class="rating" id="indexrating">
+                            <span class="rating__result"></span>
+                            <i class="rating__star far fa-star"></i>
+                            <i class="rating__star far fa-star"></i>
+                            <i class="rating__star far fa-star"></i>
+                            <i class="rating__star far fa-star"></i>
+                            <i class="rating__star far fa-star"></i>
+                          </div>
+                          <a href="Read reviews" class="mt-4">Read reviews</a>
+                          <br /><a href="Sign_up.html"
+                            ><button class="btn btn-primary text-white">
+                              Join this bookclub
+                            </button></a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                    <div class="card-body">
+                      <h3 class="card-title">The Alchemist</h3>
+                      <a
+                        href="https://www.amazon.com/Alchemist-Paulo-Coelho/dp/0062315005/ref=sr_1_1?sr=8-1"
+                        target="_blank"
+                        class="btn btn-secondary text-white"
+                        >Buy on Amazon</a
+                      >
+                      <br /><a href="#" class="btn mt-1" id="card-btn"
+                        >Add to Wishlist</a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="container-fluid" id="secTwo">
+          <section class="row">
+            <div
+              class="col-xxl-6 col-lg-6 col-md-none col-sm-none mt-5 text-center d-none d-lg-block"
+              id="pickgenre"
+            >
+              <img
+                style="width: 33em"
+                src="images/2.png"
+                alt="picture of friends and popular books behind them"
+              />
+            </div>
+            <div
+              class="col-xxl-6 col-lg-6 col-md-12 col-sm-12 col-none-4 text-center"
+            >
+              <div class="card border-0" id="genrebg">
+                <div class="card-body">
+                  <h4>Pick a genre</h4>
+                  <div class="row">
+                    <div class="col-md-4" id="mysteryThrill">
+                      <img
+                        src="images/Mystery and thriller 1.png"
+                        class="img-fluid custom-shadow"
+                        style="width: 7em; height: 11em; object-fit: cover"
+                        alt="Mystery and Thriller"
+                      />
+                      <p class="pt-2">Mystery & Thriller</p>
+                    </div>
+                    <div class="col-md-4" id="fiction">
+                      <img
+                        src="images/fiction 1.png"
+                        class="img-fluid custom-shadow"
+                        style="width: 7em; height: 11em; object-fit: cover"
+                        alt="Fiction"
+                      />
+                      <p class="pt-2">Fiction</p>
+                    </div>
+                    <div class="col-md-4" id="memior">
+                      <img
+                        src="images/Memior 1.png"
+                        class="img-fluid custom-shadow"
+                        style="width: 7em; height: 11em; object-fit: cover"
+                        alt="memior"
+                      />
+                      <p class="pt-2">Memior</p>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-md-4" id="horror">
+                      <img
+                        src="images/Horror 1.png"
+                        class="img-fluid custom-shadow"
+                        style="width: 7em; height: 11em; object-fit: cover"
+                        alt="horror"
+                      />
+                      <p class="pt-2">Horror</p>
+                    </div>
+                    <div class="col-md-4" id="historyBio">
+                      <img
+                        src="images/History & Biography 1.png"
+                        class="img-fluid custom-shadow"
+                        style="width: 7em; height: 11em; object-fit: cover"
+                        alt="historyBio"
+                      />
+                      <p class="pt-2">History & Biography</p>
+                    </div>
+                    <div class="col-md-4" id="humor">
+                      <img
+                        src="images/Humor 1.png"
+                        class="img-fluid custom-shadow"
+                        style="width: 7em; height: 11em; object-fit: cover"
+                        alt="humor"
+                      />
+                      <p class="pt-2">Humor</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+        </section>
+      </article>
+    </main>
+    <footer class="container-fluid bg-light pt-4">
+      <div class="container">
+        <div class="row">
+          <!-- About Section -->
+          <div class="col-md-3 mb-3">
+            <h3>The BookWorms</h3>
+            <p>
+              Enhancing the reading experience for readers by fostering
+              connections and building a vibrant community of book lovers.
+            </p>
+          </div>
+
+          <!-- Navigation Links -->
+          <div class="col-md-3 mb-3">
+            <h3>Quick Links</h3>
+            <ul class="list-unstyled">
+              <li><a href="#" class="text-decoration-none">Home</a></li>
+              <li>
+                <a href="#" class="text-decoration-none">Community</a>
+              </li>
+              <li>
+                <a href="#contact-us" class="text-decoration-none">Contact</a>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Contact Information -->
+          <div class="col-md-3 mb-3" id="contact-us">
+            <h3>Contact Us</h3>
+            <p>
+              Email:
+              <a
+                href="mailto:info@thebookworms.com"
+                class="text-decoration-none"
+                >info@thebookworms.com</a
+              >
+            </p>
+            <p>Phone: +977-123-456789</p>
+            <p>Address: Kathmandu, Nepal</p>
+          </div>
+
+          <!-- Social Media Links -->
+          <div class="col-md-3 mb-3">
+            <h3>Follow Us</h3>
+            <div>
+              <a href="#" class="me-3"><i class="fab fa-facebook-f"></i></a>
+              <a href="#" class="me-3"><i class="fab fa-twitter"></i></a>
+              <a href="#" class="me-3"><i class="fab fa-instagram"></i></a>
+              <a href="#" class="me-3"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="text-center py-3 bg-secondary">
+        <p class="mb-0">&copy; 2024 The BookWorms. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </body>
+</html>
