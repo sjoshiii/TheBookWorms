@@ -1,8 +1,9 @@
 # The BookWorms
 
-The BookWorms is a web-based platform designed to connect book lovers worldwide, enabling them to form or join reading groups, participate in discussions, and schedule virtual meetings. This platform brings the traditional book club experience to the digital world, making it accessible, flexible, and engaging for readers everywhere. 
+The BookWorms is a web-based platform designed to connect book lovers worldwide, enabling them to form or join reading groups, participate in discussions, and schedule virtual meetings. This platform brings the traditional book club experience to the digital world, making it accessible, flexible, and engaging for readers everywhere.
 
 ## Table of Contents
+
 - [Project-Overview](#project-overview)
 - [Objectives](#objectives)
 - [Features](#features)
@@ -13,16 +14,18 @@ The BookWorms is a web-based platform designed to connect book lovers worldwide,
 ## Project Overview
 
 The BookWorms aims to overcome the limitations of traditional book clubs by offering:
+
 - Flexible online participation.
 - Personalized book recommendations.
 - A global community of readers.
 - Virtual book discussions and events.
 
 ### Objectives
+
 - Provide book recommendations.
 - Allow readers to join or create book clubs based on their preferences.
 - Enable users to participate in virtual discussions and meetings.
-  
+
 ## Features
 
 - **Personalized Book Recommendations**: Based on user preferences.
@@ -32,7 +35,7 @@ The BookWorms aims to overcome the limitations of traditional book clubs by offe
 - **Responsive UI**: The platform is built to be responsive and user-friendly.
 - **Live Chat**: Participate in live discussions during meetings or events.
 - **User Feedback Integration**: Collect and analyze user feedback to continuously improve the platform.
-  
+
 ## Technology Stack
 
 - **Frontend**: HTML, CSS, JavaScript, Bootstrap 5
@@ -46,21 +49,22 @@ The BookWorms aims to overcome the limitations of traditional book clubs by offe
 To run this project locally, follow the steps below:
 
 1. Clone the repository:
-git clone https://github.com/your-username/the-bookworms.git
+   git clone https://github.com/sjoshiii/the-bookworms.git
 
 2. Navigate to the project directory:
-cd the-bookworms
+   cd the-bookworms
 
 3. Install required dependencies:
-pip install -r requirements.txt
+   pip install -r requirements.txt
 
 4. Set up the database:
-python manage.py migrate
+   python manage.py migrate
 
 5. Run the development server:
-python manage.py runserver
+   python manage.py runserver
 
 ## Contribution
+
 We welcome contributions from the global community of developers, designers, and book lovers. If you'd like to contribute, please follow the guidelines below:
 
 - Fork the repository.
@@ -68,4 +72,3 @@ We welcome contributions from the global community of developers, designers, and
 - Commit your changes (git commit -m 'Add new feature').
 - Push to the branch (git push origin feature/your-feature).
 - Open a pull request.
-
