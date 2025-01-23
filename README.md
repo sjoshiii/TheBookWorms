@@ -9,7 +9,6 @@ The BookWorms is a web-based platform designed to connect book lovers worldwide,
 - [Features](#features)
 - [Technology Stack](#technology-stack)
 - [Installation and Setup](#installation-and-setup)
-- [Contribution](#contribution)
 
 ## Project Overview
 
@@ -62,13 +61,3 @@ To run this project locally, follow the steps below:
 
 5. Run the development server:
    python manage.py runserver
-
-## Contribution
-
-We welcome contributions from the global community of developers, designers, and book lovers. If you'd like to contribute, please follow the guidelines below:
-
-- Fork the repository.
-- Create a new branch (git checkout -b feature/your-feature).
-- Commit your changes (git commit -m 'Add new feature').
-- Push to the branch (git push origin feature/your-feature).
-- Open a pull request.
