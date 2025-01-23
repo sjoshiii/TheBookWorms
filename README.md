@@ -49,7 +49,7 @@ The BookWorms aims to overcome the limitations of traditional book clubs by offe
 To run this project locally, follow the steps below:
 
 1. Clone the repository:
-   git clone https://github.com/sjoshiii/the-bookworms.git
+   git clone https://github.com/sjoshiii/TheBookWorms.git
 
 2. Navigate to the project directory:
    cd the-bookworms
