@@ -127,3 +127,12 @@ const resizeImage = (image) =>{
         image.style.width="200px";
         image.style.height = "250px"
 }
+
+
+
+
+
+
+
+     
+      
