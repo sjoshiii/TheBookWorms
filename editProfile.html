@@ -31,12 +31,7 @@
                   <span class="navbar-toggler-icon"></span>
                 </button>
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                  <!-- <ul class="navbar-nav">
-                      <li class="nav-item">
-                          <a href="index.html" class="nav-link me-4">Home</a>
-                      </li>
-                     
-                  </ul> -->
+                 
                   <form class="d-flex">
                       <input class="form-control me-2" type="search" placeholder="Search books by title" aria-label="Search">
                       <button class="btn me-4" type="submit"><img src="images/mag_glass.png"></button>
@@ -53,17 +48,18 @@
        <main>
          <article>
            <img src="images/purplevectortwo.png" id="pvecone">
-            <div class="container-fluid" style="margin-top: 111px;margin-bottom: 188px;">
+            <div class="container-fluid" style="margin-top: 20px;margin-bottom: 50px;">
               <div class="row align-items-center justify-content-center mx-auto">
+                
                 <div class="col-lg-4 col-sm-3 col-md-2 m-auto d-none d-lg-block d-xl-block text-center">
-                  <img src="images/girl holding book 2.png" style="width: 20rem;">
+                  <img src="images/girl holding book 2.png" style="width: 25rem;">
                 </div>
 
                 <div class="col-lg-4 col-sm-6 col-md-8 m-auto">
                   <form id="signupform" class="justify-content-lg-center align-items-lg-center px-5 pt-4 signupform">
                   
                       <h3 class="text-center">Edit Profile</h3>
-                      
+      
                       <div class="col-lg-4 col-md-4 col-sm-4 text-center m-auto mb-2">
                         <img id="profilepic">
                         <source srcset="..." type="image/svg+xml">
@@ -78,27 +74,21 @@
 
                       <div class="col-lg-4 col-m-4 col-sm-4" style="width: 100%">
                         <div class="mb-3">
-                          <label for="exampleFormControlTextarea1" class="form-label" style="font-size:small">About Me</label>
-                          <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          <label class="form-label" style="font-size:small">FullName</label><input type="text" class="form-control"  value="">
+                          <label class="form-label" style="font-size:small">Username</label><input type="text" class="form-control"  value="">
+                          <label class="form-label" style="font-size:small">Email</label><input type="email" class="form-control"  value="">
+                          <label class="form-label" style="font-size:small">Password</label><input type="password" class="form-control"  value="">
+                          <label class="form-label" style="font-size:small">Date of Birth</label><input type="date" class="form-control"  value="">
+                          <label class="form-label" style="font-size:small">Country</label><input type="text" class="form-control"  value="">
+                          <label class="form-label" style="font-size:small">Bio</label> <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                          
+                         
+                        <br><div class="text-center"><a href="#" type="submit" class="btn btn-primary text-white text-decoration-none mb-1">Save Profile</a></div>
+                        <br><div class="text-center"><a href="profile.html" type="submit" class="btn btn-primary text-white text-decoration-none mb-4">Continue</a></div>
                         </div>
-                      </div>
-                              
-                      <div class="col-lg-6 col-md-4 col-sm-4 m-auto text-center">
-                        <!-- <b><p>Membership:</p></b> -->
-                        <!-- <div class="container-fluid">
-                          <div class="row justify-content-center"> -->
-                            <!-- <div class="col-2">
-                              <img src=images/check.png>
-                            </div> -->
-                            <!-- <div class="col-10">
-                              <p class="text-primary">Basic Member</p>
-                            </div> -->
-                          <!-- </div>
-                        </div> -->
-                      
-                      </div>
-                      <br><div class="text-center"><a href="#" type="submit" class="btn btn-primary text-white text-decoration-none mb-4">Save Change</a></div>
-                      <br><div class="text-center"><a href="profile.html" type="submit" class="btn btn-primary text-white text-decoration-none mb-4">Continue</a></div>
+                      </div> 
+                  
+                 
                   </form>
                 </div>
                 
@@ -116,10 +106,6 @@
           <p class="mb-0">&copy; 2024 The BookWorms. All Rights Reserved.</p>
         </div>
       </footer>
-        <script>
-            const element = document.querySelector('.signupform');
-            element.classList.add('animate__animated', 'animate__bounceInLeft');
-
-        </script>
+        
 </body>
 </html>
