@@ -136,6 +136,7 @@ h3 {
 
 .card-body {
     margin-top: 2px;
+    margin-left: 20px;
 }
 
 .card-body>h3 {
