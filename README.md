@@ -38,8 +38,6 @@ The BookWorms aims to overcome the limitations of traditional book clubs by offe
 ## Technology Stack
 
 - **Frontend**: HTML, CSS, JavaScript, Bootstrap 5
-- **Backend**: Python
-- **Database**: MySQL
 - **Libraries**: React for user interface components
 - **Version Control**: Git & GitHub
 
